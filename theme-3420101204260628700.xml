@@ -384,7 +384,11 @@ display:none;
 
 
 
+<<<<<<< HEAD
+<script src='http://oqnn3yexw.bkt.clouddn.com/themes/jquery.min.js' type='text/javascript'/>
+=======
 <script src='http://oqnn3yexw.bkt.clouddn.com/themes/jquery.min.js'/>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
  <script src='http://code.jquery.com/jquery-migrate-1.2.1.js' type='text/javascript'/>
 <script type='text/javascript'>
 /*<![CDATA[*/
@@ -641,7 +645,7 @@ var _0xffa4=["\x6E\x20\x31\x79\x28\x79\x29\x7B\x71\x28\x34\x20\x69\x3D\x30\x3B\x
                           <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
                           <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                           <b:widget-setting name='authorLabel'>By</b:widget-setting>
-                          <b:widget-setting name='showCommentLink'>true</b:widget-setting>
+                          <b:widget-setting name='showCommentLink'>false</b:widget-setting>
                           <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
                           <b:widget-setting name='showAuthor'>false</b:widget-setting>
                           <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
@@ -1228,7 +1232,11 @@ var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<dat
         <div class='col-lg-9 col-sm-9 col-xs-12 author-title'>
             <h2><a href='#' rel='author external' title='Visit admin’s website'><data:post.author/></a></h2>
             <span class='author-position'>Developer</span>
+<<<<<<< HEAD
+            <p class='author-desc'>信息安全爱好者 渗透测试工程师.</p>
+=======
             <p class='author-desc'>Information security penetration test</p>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
             <div class='author-social-media'>
                 <ul>
                     <li class='home'>
@@ -1531,13 +1539,21 @@ var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<dat
   </div>
 </b:includable>
                       </b:widget>
+<<<<<<< HEAD
+                      <b:widget id='HTML4' locked='false' title='Disqus for tr33' type='HTML' version='1'>
+=======
                       <b:widget id='HTML4' locked='false' title='Disqus for tr33s-blog' type='HTML'>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
                         <b:widget-settings>
                           <b:widget-setting name='content'><![CDATA[<!-- Disqus Widget -->]]></b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
 <script type='text/javascript'>
+<<<<<<< HEAD
+var disqus_shortname = &#39;tr33&#39;;
+=======
 var disqus_shortname = &#39;tr33s-blog&#39;;
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
 var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
 if (!disqus_blogger_current_url.length) {
     disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
@@ -1579,6 +1595,8 @@ var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUr
 
 <div class='sidebar-wrapper'>
 <b:section class='sidebar' id='sidebar' showaddelement='yes'>
+<<<<<<< HEAD
+=======
   <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
     <b:widget-settings>
       <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
@@ -1627,6 +1645,7 @@ var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUr
   </div>
 </b:includable>
   </b:widget>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
   <b:widget id='Label2' locked='false' title='Labels' type='Label' version='1'>
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
