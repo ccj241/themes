@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+&lt;!--
   <head>
-    <b:include data='blog' name='all-head-content'/>
-
     <title>
       <b:if cond='data:blog.pageType == &quot;index&quot;'>
         <data:blog.pageTitle/>
@@ -31,8 +30,17 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'/>
  
 &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
+<title>
+Tr33's Blog
+</title>
+<meta charset='UTF-8'/>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'/>
+<link href='//fonts.googleapis.com/css?family=Lato:400,400italic|Open+Sans:400italic,600italic,400,600|Coda:800)' media='screen' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'/>
+ 
 <link href='http://oqnn3yexw.bkt.clouddn.com/themes/timeline.css' rel='stylesheet' type='text/css'/>
-
 <style id='ebor-style-inline-css' type='text/css'>
 
 			.white{
@@ -301,8 +309,8 @@
 		.menu-panel {
   background-image: url(http://oqnn3yexw.bkt.clouddn.com/themes/cover.jpg);
 }
-		
-</style>
+	</style>
+
 
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <style>
