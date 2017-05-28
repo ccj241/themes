@@ -376,7 +376,11 @@ display:none;
 
 
 
+<<<<<<< HEAD
 <script src='http://oqnn3yexw.bkt.clouddn.com/themes/jquery.min.js' type='text/javascript'/>
+=======
+<script src='http://oqnn3yexw.bkt.clouddn.com/themes/jquery.min.js'/>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
  <script src='http://code.jquery.com/jquery-migrate-1.2.1.js' type='text/javascript'/>
 <script type='text/javascript'>
 /*<![CDATA[*/
@@ -815,120 +819,6 @@ var _0xffa4=["\x6E\x20\x31\x79\x28\x79\x29\x7B\x71\x28\x34\x20\x69\x3D\x30\x3B\x
   </b:if>
 </b:includable>
                         <b:includable id='comments' var='post'>
-  <div class='comments' id='comments'>
-    <a name='comments'/>
-    <b:if cond='data:post.allowComments'>
-      <h4>
-        <b:if cond='data:post.numComments == 1'>
-          1 <data:commentLabel/>:
-        <b:else/>
-          <data:post.numComments/> <data:commentLabelPlural/>:
-        </b:if>
-      </h4>
-
-      <b:if cond='data:post.commentPagingRequired'>
-        <span class='paging-control-container'>
-          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'><data:post.oldestLinkText/></a>
-          &#160;
-          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'><data:post.olderLinkText/></a>
-          &#160;
-          <data:post.commentRangeText/>
-          &#160;
-          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'><data:post.newerLinkText/></a>
-          &#160;
-          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'><data:post.newestLinkText/></a>
-        </span>
-      </b:if>
-
-      <div expr:id='data:widget.instanceId + &quot;_comments-block-wrapper&quot;'>
-        <dl expr:class='data:post.avatarIndentClass' id='comments-block'>
-          <b:loop values='data:post.comments' var='comment'>
-            <dt expr:class='&quot;comment-author &quot; + data:comment.authorClass' expr:id='data:comment.anchorName'>
-              <b:if cond='data:comment.favicon'>
-                <img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/>
-              </b:if>
-              <a expr:name='data:comment.anchorName'/>
-              <b:if cond='data:blog.enabledCommentProfileImages'>
-                <data:comment.authorAvatarImage/>
-              </b:if>
-              <b:if cond='data:comment.authorUrl'>
-                <a expr:href='data:comment.authorUrl' rel='nofollow'><data:comment.author/></a>
-              <b:else/>
-                <data:comment.author/>
-              </b:if>
-              <data:commentPostedByMsg/>
-            </dt>
-            <dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'>
-              <b:if cond='data:comment.isDeleted'>
-                <span class='deleted-comment'><data:comment.body/></span>
-              <b:else/>
-                <p>
-                  <data:comment.body/>
-                </p>
-              </b:if>
-            </dd>
-            <dd class='comment-footer'>
-              <span class='comment-timestamp'>
-                <a expr:href='data:comment.url' title='comment permalink'>
-                  <data:comment.timestamp/>
-                </a>
-                <b:include data='comment' name='commentDeleteIcon'/>
-              </span>
-            </dd>
-          </b:loop>
-        </dl>
-      </div>
-
-      <b:if cond='data:post.commentPagingRequired'>
-        <span class='paging-control-container'>
-          <a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'>
-            <data:post.oldestLinkText/>
-          </a>
-          <a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'>
-            <data:post.olderLinkText/>
-          </a>
-          &#160;
-          <data:post.commentRangeText/>
-          &#160;
-          <a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'>
-            <data:post.newerLinkText/>
-          </a>
-          <a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'>
-            <data:post.newestLinkText/>
-          </a>
-        </span>
-      </b:if>
-
-      <p class='comment-footer'>
-        <b:if cond='data:post.embedCommentForm'>
-          <b:if cond='data:post.allowNewComments'>
-            <b:include data='post' name='comment-form'/>
-          <b:else/>
-            <data:post.noNewCommentsText/>
-          </b:if>
-        <b:else/>
-          <b:if cond='data:post.allowComments'>
-            <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
-          </b:if>
-        </b:if>
-
-      </p>
-    </b:if>
-    <b:if cond='data:showCmtPopup'>
-      <div id='comment-popup'>
-        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
-        </iframe>
-      </div>
-    </b:if>
-
-    <div id='backlinks-container'>
-    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
-       <b:if cond='data:post.showBacklinks'>
-         <b:include data='post' name='backlinks'/>
-       </b:if>
-    </div>
-    </div>
-  </div>
 </b:includable>
                         <b:includable id='feedLinks'>
   <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
@@ -1334,7 +1224,11 @@ var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<dat
         <div class='col-lg-9 col-sm-9 col-xs-12 author-title'>
             <h2><a href='#' rel='author external' title='Visit admin’s website'><data:post.author/></a></h2>
             <span class='author-position'>Developer</span>
+<<<<<<< HEAD
             <p class='author-desc'>信息安全爱好者 渗透测试工程师.</p>
+=======
+            <p class='author-desc'>Information security penetration test</p>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
             <div class='author-social-media'>
                 <ul>
                     <li class='home'>
@@ -1637,13 +1531,21 @@ var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<dat
   </div>
 </b:includable>
                       </b:widget>
+<<<<<<< HEAD
                       <b:widget id='HTML4' locked='false' title='Disqus for tr33' type='HTML' version='1'>
+=======
+                      <b:widget id='HTML4' locked='false' title='Disqus for tr33s-blog' type='HTML'>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
                         <b:widget-settings>
                           <b:widget-setting name='content'><![CDATA[<!-- Disqus Widget -->]]></b:widget-setting>
                         </b:widget-settings>
                         <b:includable id='main'>
 <script type='text/javascript'>
+<<<<<<< HEAD
 var disqus_shortname = &#39;tr33&#39;;
+=======
+var disqus_shortname = &#39;tr33s-blog&#39;;
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
 var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
 if (!disqus_blogger_current_url.length) {
     disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
@@ -1685,6 +1587,57 @@ var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUr
 
 <div class='sidebar-wrapper'>
 <b:section class='sidebar' id='sidebar' showaddelement='yes'>
+<<<<<<< HEAD
+=======
+  <b:widget id='PopularPosts2' locked='false' title='Popular Posts' type='PopularPosts' version='1'>
+    <b:widget-settings>
+      <b:widget-setting name='numItemsToShow'>10</b:widget-setting>
+      <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+      <b:widget-setting name='showSnippets'>true</b:widget-setting>
+      <b:widget-setting name='timeRange'>LAST_YEAR</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <b:if cond='data:title'><h2><data:title/></h2></b:if>
+  <div class='widget-content popular-posts'>
+    <ul>
+      <b:loop values='data:posts' var='post'>
+      <li>
+          <b:if cond='data:showSnippets == &quot;false&quot;'>
+            <!-- (3) Show only thumbnails -->
+            <div class='item-thumbnail-only'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+            </div>
+            <div style='clear: both;'/>
+          <b:else/>
+            <!-- (4) Show snippets and thumbnails -->
+            <div class='item-content'>
+              <b:if cond='data:post.thumbnail'>
+                <div class='item-thumbnail'>
+                  <a expr:href='data:post.href' target='_blank'>
+                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                  </a>
+                </div>
+              </b:if>
+              <div class='item-title'><a expr:href='data:post.href'><data:post.title/></a></div>
+              <div class='item-snippet'><data:post.snippet/></div>
+            </div>
+            <div style='clear: both;'/>
+          </b:if>
+      </li>
+      </b:loop>
+    </ul>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+  </b:widget>
+>>>>>>> 5990c4665ac37c2570c7d4efb796437a233a1fdd
   <b:widget id='Label2' locked='false' title='Labels' type='Label' version='1'>
     <b:widget-settings>
       <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
@@ -1853,7 +1806,7 @@ var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUr
 
 
       <small id='copyright' style='float:right'>  <a href='http://www.tr33.cc/' rel='dofollow' target='_blank' title='Tr33'>Tr33&#39;s Blog </a>  
-Created by <a href='http://www.tr33.cc/' id='mycontent'>Themexpose</a></small>
+Created by <a href='http://www.tr33.cc/' id='mycontent'>Tr33</a></small>
 <div class='back-top clearfix'>
 <div class='arrow-up' id='back-to-top'>
 <a class='fa fa-angle-up' href='#top↑'/>
